@@ -10,13 +10,13 @@ To use this, you'll need to install ollama beforehand:
 https://ollama.com/download/windows
 
 After installation, fetch your ollama model with cli command:
-´´´´ollama pull [model_name]´´´´
+```ollama pull [model_name]```
 
 Then, run ollama server:
-´´´ollama serve´´´
+```ollama serve```
 
 create a venv, activate it, then run the tool via:
-´´´python ./main --gui´´´
+```python ./main --gui```
 
 Access gradio app here:
 http://localhost:7860/
